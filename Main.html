@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and overall background */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #d32f2f; /* Blood-red color */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        /* Navbar styling */
+        #navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        #navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        #navbar a:hover {
+            background-color: #d32f2f; /* Red hover effect */
+            color: white;
+        }
+
+        /* Centering the content */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>BLOOD BANK MANAGEMENT SYSTEM</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <a href="newdonor.jsp">Add New Donor</a>
+        <a href="editdelete.jsp">Edit, Delete & List of Donor Details</a>
+        <a href="Request.jsp">Request For Blood</a>
+        <a href="manage.jsp">Manage Stock</a>
+        <a href="Requestedblood.jsp">Requested For Blood</a>
+    </nav>
+
+</body>
+</html>
+
